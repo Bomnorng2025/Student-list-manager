@@ -11,7 +11,7 @@ function renderStudents(list) {
   list.forEach((student, index) => {
     const card = document.createElement("div");
     card.className =
-      "p-4 border border-blue-200 rounded-xl shadow-md hover:shadow-lg transition-all duration-200";
+      "p-4 border-blue-600 border-l-[3px] rounded-xl shadow-md hover:shadow-lg transition-all duration-200";
     card.innerHTML = `
       <p class="font-semibold text-base">${index + 1}. ${student.name}</p>
       <p class="text-sm text-gray-600">Grade: ${student.grade}</p>
